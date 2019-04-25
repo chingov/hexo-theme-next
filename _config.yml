@@ -59,7 +59,7 @@ footer:
     # If you want to animate the icon, set it to true.
     animated: false
     # Change the color of icon, using Hex Code.
-    color: "#808080"
+    color: "#ff0000"
 
   # If not defined, `author` from Hexo main config will be used.
   copyright:
@@ -183,9 +183,9 @@ menu_settings:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Muse
+scheme: Muse
 #scheme: Mist
-scheme: Pisces
+#scheme: Pisces
 #scheme: Gemini
 
 
@@ -327,12 +327,12 @@ read_more_btn: true
 
 # Post meta display settings
 post_meta:
-  item_text: true
-  created_at: true
+  item_text: true  # 显示文字说明
+  created_at: true  # 显示文章创建时间
   updated_at:
-    enable: true
-    another_day: true
-  categories: true
+    enable: false  # 文章修改时间
+    another_day: false  # 只有当修改时间和创建时间不是同一天的时候才显示
+  categories: true  # 分类信息
 
 # Post wordcount display settings
 # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
@@ -1216,3 +1216,7 @@ vendors:
 css: css
 js: js
 images: images
+
+# window woblle
+wobble:
+  enable: true  # 是否开启边缘波动效果
