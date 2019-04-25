@@ -101,7 +101,7 @@ creative_commons:
   license: by-nc-sa  # 开启版权声明
   sidebar: true # 侧边栏
   post: true # post文章
-  language:
+  language: zh-CN
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
