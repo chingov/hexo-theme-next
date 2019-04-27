@@ -9,7 +9,6 @@
 
 {# 页脚站点运行时间统计 #}
   {% if theme.footer.ages.enable %}
-    <span class="post-meta-divider footer-ages-icon"> | </span>
     <script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/moment.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/moment-precise-range-plugin@1.3.0/moment-precise-range.min.js"></script>
     <script>
