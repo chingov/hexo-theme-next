@@ -30,3 +30,38 @@ if hexo-config('wobble')  {
     padding-bottom: 30px;
   }
 }
+
+// Mist主题下自定义样式
+if hexo-config('scheme') == "Mist" {
+  .site-meta {
+    float: none;
+  }
+
+  .footer-inner {
+    text-align: center;
+  }
+
+  /*.menu {
+    text-align: right;
+  }*/
+}
+
+// Muse主题下自定义样式
+if hexo-config('scheme') == "Muse" {
+  //为头部和尾部添加背景色
+  #header, #footer {
+    background-color: rgb(245, 245, 245);
+  }
+
+  .site-meta {
+    .brand {
+      color: rgb(34, 34, 34);
+      background: none;
+    }
+
+    .site-title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+  }
+}

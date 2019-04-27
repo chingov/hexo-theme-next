@@ -353,7 +353,7 @@
       </div>
     {% endif %}
 
-    {% if theme.creative_commons.license and theme.creative_commons.post and not is_index %}
+    {% if theme.creative_commons.license and theme.creative_commons.post and page.copyright and not is_index %}
       <div>
         {% include '../_partials/post/post-copyright.swig' with { post: post } %}
       </div>
